@@ -108,6 +108,18 @@ If you would like to contribute to the Universal Remotes, please make sure to fo
 For ACs, [this is an important read](https://github.com/flipperdevices/flipperzero-firmware/blob/dev/documentation/UniversalRemotes.md).
 
 
+## IRUI files
+
+If you have used the Remotes Library tool in the mobile app, you have seen a different UI than the default signal list. The mobile app generates IRUI files which describe the layout of the UI.
+
+However, when editing the signal in the IR file, the button stops working in the app. This is caused by the sha_256_string data field in the IRUI. After editing an IR file, the hash must be updated.
+The hash is updated based on the following rule: concatenate the data in the IR file.
+| Signal type | Fields concatenated before hashing (without separator) |
+| ----------- | ------------------------------------------------------ |
+| raw         | type + frequency + duty_cycle + data                   |
+| parsed      | type + protocol + address + command                    |
+
+
 ## Make your own manually!
 
 Did you know IR files are plain text files? 
