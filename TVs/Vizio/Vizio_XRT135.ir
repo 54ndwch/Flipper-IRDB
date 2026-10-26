@@ -69,7 +69,7 @@ protocol: NEC
 address: 04 00 00 00
 command: 02 00 00 00
 # 
-name: Vol_down
+name: Vol_dn
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -87,7 +87,7 @@ protocol: NEC
 address: 04 00 00 00
 command: 01 00 00 00
 # 
-name: CC
+name: Cc
 type: parsed
 protocol: NEC
 address: 04 00 00 00
