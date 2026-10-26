@@ -91,7 +91,7 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 2D 00 00 00
 # 
-name: Select
+name: Ok
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00

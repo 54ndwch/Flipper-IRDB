@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 # 
-name: Powa
+name: Power
 type: parsed
 protocol: NECext
 address: 00 BF 00 00

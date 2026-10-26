@@ -43,7 +43,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 206 3069 232
 #
-name: Enter
+name: Ok
 type: parsed
 protocol: NEC
 address: 45 00 00 00

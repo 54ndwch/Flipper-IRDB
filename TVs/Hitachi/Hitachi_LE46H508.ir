@@ -129,7 +129,7 @@ protocol: NEC
 address: 50 00 00 00
 command: 72 00 00 00
 # 
-name: Select
+name: Ok
 type: parsed
 protocol: NEC
 address: 50 00 00 00
