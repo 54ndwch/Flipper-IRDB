@@ -65,6 +65,7 @@ It is also helpful to ensure your model numbers are capitalized, as per the foll
 It's helpful to add further information as a comment directly into the IR file if possible. 
 Make, model, link, or even a short description can be helpful if the name is changed 
 (or just in general).
+If possible, please also add a photo of the remote's layout.
 
 ```bash
 Filetype: IR signals file
@@ -79,27 +80,33 @@ name: Power
 
 Please use this naming scheme for buttons. 
 This helps us create universal assets more easily and maintain consistency.
+A button must not be confusable with an other!
 
 | Audio / Video Devices  | ACs       | LEDs            |
 | ---------------------- | --------- | --------------- |
 | `Power`                | `Off`     | `Power_off`     |
-| `Vol_up`               | `Cool_hi` | `Power_on`      |
-| `Vol_dn`               | `Cool_lo` | `Brightness_up` |
-| `Next`                 | `Heat_hi` | `Brightness_dn` |
-| `Prev`                 | `Heat_lo` | `Red`           |
-| `Mute`                 | `Dh`      | `Green`         |
-| `Play`                 |           | `Blue`          |
-| `Pause`                |           | `White`         |
-| `Play_pause`           |           | `Yellow`        |
-| `Ok`                   |           |                 |
-| `Up`                   |           |                 |
-| `Down`                 |           |                 |
-| `Left`                 |           |                 |
-| `Right`                |           |                 |
-| `Back`                 |           |                 |
-| `Sleep`                |           |                 |
+| `Input`                | `Cool_hi` | `Power_on`      |
+| `Ok`                   | `Cool_lo` | `Brightness_up` |
+| `Up`                   | `Heat_hi` | `Brightness_dn` |
+| `Down`                 | `Heat_lo` | `Red`           |
+| `Left`                 | `Dh`      | `Green`         |
+| `Right`                |           | `Blue`          |
+| `Back`                 |           | `White`         |
+| `Vol_up`               |           | `Yellow`        |
+| `Vol_dn`               |           |                 |
 | `Ch_next`              |           |                 |
 | `Ch_prev`              |           |                 |
+| `0`, `1`, `2`, ...     |           |                 |
+| `Play`                 |           |                 |
+| `Pause`                |           |                 |
+| `Play_pause`           |           |                 |
+| `Rwd`                  |           |                 |
+| `Fwd`                  |           |                 |
+| `Stop`                 |           |                 |
+| `Next`                 |           |                 |
+| `Prev`                 |           |                 |
+| `Mute`                 |           |                 |
+| `Sleep`                |           |                 |
 
 ## Universal Remotes
 
