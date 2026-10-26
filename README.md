@@ -96,6 +96,7 @@ A button must not be confusable with an other!
 | `Vol_dn`               |           |                 |
 | `Ch_next`              |           |                 |
 | `Ch_prev`              |           |                 |
+| `Guide`                |           |                 |
 | `0`, `1`, `2`, ...     |           |                 |
 | `Play`                 |           |                 |
 | `Pause`                |           |                 |
